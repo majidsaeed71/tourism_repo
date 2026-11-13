@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install Dependencies
-        run: pip install -r /tourism_project/deployment/requirements.txt   # Replace with the path to your project's requirements file.
+        run: pip install -r tourism_project/deployment/requirements.txt   # Replace with the path to your project's requirements file.
       - name: Register Dataset
         run: python /tourism_project/model_building/data_register.py   # Replace with the path to your dataset registration script.
       - name: Upload Registered Dataset
