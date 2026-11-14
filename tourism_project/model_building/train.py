@@ -1,4 +1,4 @@
-# for data manipulation  
+# for data manipulation
 import pandas as pd
 # for building the preprocessing and modeling pipeline
 from sklearn.compose import make_column_transformer
