@@ -10,7 +10,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 # for model serialization and experiment tracking
 import joblib
 import mlflow
-
+public_url = "https://elves-thirsty-unfold.ngrok-free.dev"
 mlflow.set_tracking_uri(public_url)   # complete the code to set the MLflow tracking URI
 mlflow.set_experiment("MLOps_CICD_Tourism")     # complete the code to set the MLflow experiment name (same as the dev experimentation cell)
 
